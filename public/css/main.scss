@@ -1,0 +1,38 @@
+@import 'scss/bootstrap.min';
+@import 'scss/nav';
+@import 'scss/pages';
+@import 'scss/register';
+@import 'scss/gradients';
+@import 'scss/cards';
+@import 'scss/articles';
+@import 'scss/showcase';
+@import 'scss/autor';
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.cleaner {
+    clear: both;
+}
+
+*[disabled] {
+    cursor: not-allowed;
+}
+
+.clickable {
+    cursor: pointer;
+}

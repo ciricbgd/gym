@@ -1,0 +1,57 @@
+#register_page {
+  min-height: 100vh;
+  background-image: url("../img/website/background1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  top: 0;
+}
+
+#register_form {
+  margin-top: 25vh;
+  max-width: 600px !important;
+  background-color: rgba(20, 20, 20, 0.7);
+  padding: 30px !important;
+}
+#register_form table {
+  width: 100%;
+}
+#register_form table tr td {
+  padding: 10px;
+}
+#register_form .dateholder {
+  display: flex;
+  justify-content: space-between;
+}
+#register_form .dateholder .dateselector {
+  display: inline-block;
+  width: 30%;
+}
+#register_form button[type=submit] {
+  display: block;
+  width: 30%;
+  min-width: 80px;
+  margin: 0 auto;
+}
+
+.form_alerts {
+  padding: 0;
+  margin-top: 25px;
+  max-width: 600px;
+}
+.form_alerts div ul {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.input_warning {
+  border: 2px solid red !important;
+  background-color: rgba(255, 0, 0, 0.1) !important;
+  color: white !important;
+}
+
+/*# sourceMappingURL=register.css.map */

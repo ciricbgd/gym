@@ -1,0 +1,67 @@
+.cards_home {
+  display: flex;
+  justify-content: space-between;
+}
+.cards_home .card {
+  border-radius: 7px;
+  border: none;
+  width: 18rem;
+}
+.cards_home .card .card_header {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  height: 100px;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+}
+.cards_home .card .card_name {
+  width: 104%;
+  transform: translateX(-2%);
+  padding: 20px;
+  text-align: center;
+  background-color: #212529;
+  color: #ccc;
+  border-radius: 1px;
+  box-shadow: 0px 0px 18px black;
+  font-size: 1.4rem;
+}
+.cards_home .card .card-body a.btn-primary {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+.cards_home .card .card-body table {
+  margin-bottom: 30px;
+}
+.cards_home .card .card-body table tr {
+  border-bottom: 0.5px solid #ddd;
+}
+.cards_home .card .card-body table tr td {
+  border: none;
+}
+.cards_home .card .card-body table tr:last-of-type {
+  border: none;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+  .cards_home {
+    display: block;
+  }
+  .cards_home .card {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+.workouts {
+  width: 320px;
+  color: white;
+  margin: 0 auto;
+  padding-top: 300px;
+}
+.workouts p {
+  font-size: 32px;
+}
+
+/*# sourceMappingURL=cards.css.map */

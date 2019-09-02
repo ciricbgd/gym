@@ -1,0 +1,63 @@
+.navbar {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  width: 100%;
+}
+.navbar .nav_btn {
+  margin-right: 10px;
+}
+.navbar .nav_btn .dropdown-menu {
+  float: right;
+}
+
+#login_form {
+  position: absolute;
+  top: 56px;
+  right: 25px;
+}
+#login_form input {
+  display: block;
+  margin-top: 10px;
+  background: transparent;
+  color: #ffc107;
+  border: 2px solid #ffc107;
+  background-color: rgba(50, 50, 50, 0.6);
+}
+
+#login_form input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #bbb;
+  opacity: 1;
+  /* Firefox */
+}
+
+#login_form input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #bbb;
+}
+
+#login_form input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #bbb;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+  .navbar .nav_btn {
+    margin: 0;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .navbar .nav_btn .dropdown-menu {
+    float: right;
+  }
+
+  #login_form {
+    position: inherit;
+  }
+  #login_form input {
+    max-width: 340px;
+  }
+}
+
+/*# sourceMappingURL=nav.css.map */

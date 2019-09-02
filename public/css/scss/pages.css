@@ -1,0 +1,62 @@
+.container-fluid {
+  padding: 0 !important;
+}
+
+.page {
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+#page_home {
+  background-image: url("../img/website/background1.jpg");
+  padding-top: 25vh;
+}
+
+#page_survey {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("../img/website/background4.jpg");
+}
+#page_survey .survey_card {
+  width: 650px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.94);
+}
+
+.survey li {
+  width: 650px;
+  padding: 20px;
+}
+.survey li h4 {
+  margin-bottom: 20px;
+}
+.survey li .survey_submit {
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+#page_articles,
+#signle_article {
+  background-image: url("../img/website/background2.jpg");
+  background-position: center bottom;
+  padding-bottom: 50px;
+}
+
+#page_showcase {
+  background-image: url("../img/website/background3.jpg");
+  display: flex;
+  padding: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#page_workouts {
+  background-image: url("../img/website/background5.jpg");
+}
+
+/*# sourceMappingURL=pages.css.map */
